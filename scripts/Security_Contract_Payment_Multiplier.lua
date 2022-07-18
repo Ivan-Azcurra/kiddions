@@ -1,0 +1,17 @@
+menu.add_int_range("Contract 1", 5000, 35000, 130000, function() 
+	return globals.get_int(1805208)
+end, function(value)
+	globals.set_int(1805208, value)
+end)
+ 
+menu.add_int_range("Contract 2", 5000, 35000, 130000, function() 
+	return globals.get_int(1805211)
+end, function(value)
+	globals.set_int(1805211, value)
+end)
+ 
+menu.add_int_range("Contract 3", 5000, 35000, 130000, function() 
+	return globals.get_int(1805214)
+end, function(value)
+	globals.set_int(1805214, value)
+end)

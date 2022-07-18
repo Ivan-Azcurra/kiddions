@@ -1,0 +1,5 @@
+menu.add_toggle("Snow", function()	
+	return globals.get_boolean(262145 + 4723) 
+end, function(value)
+	globals.set_boolean(262145 + 4723, value)
+end)

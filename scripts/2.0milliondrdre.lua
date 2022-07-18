@@ -1,0 +1,5 @@
+menu.add_int_range("Dre Finale Payout", 2000000, 2000000, 2000000, function() 
+	return globals.get_int(262145 + 31373)
+end, function(value)
+	globals.set_int(262145 + 31373, value)
+end)
